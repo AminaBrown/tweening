@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/ >
+		<title>Tweening</title>
+		<!-- D3.js -->
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+        <style>
+            #start, #end {
+                height: 50vh;
+            }
+
+            .tween {
+                position: sticky;
+                top:0;
+            }
+
+            /* add to webflow */
+            /* .shape {
+                transition: all 1s ease-in-out;
+            } */
+
+            body {
+                background-color: #413C58;
+            }
+
+        </style>
+	</head>
+	<body>
+        <div id="h-scroll">
+            <div class="tween"></div>
+            <div id="start" class="step"></div>
+            <div id="end" class="step"></div>
+        </div>
+		<script src="tween.js"></script>
+	</body>
+</html>
